@@ -2,7 +2,6 @@
 $m = new Mongo();
 $mdb = $m->meubanco;
 $mdb->authenticate("meusuario","minhasenha"); 
-$col = $mdb->minhacolecao;
 e("<h3>.stats()</h3>");
 $dbstats = $mdb->execute("db.stats()");
 
